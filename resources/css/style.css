@@ -17,3 +17,22 @@ html {
 	max-width: 1140px;
 	margin: 0 auto;
 }
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.hero-text-box {
+	position: absolute; /*it doesnt depend on other factors*/
+	width: 1140px; /*same with as the whole image but absolutelly positioned*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) /*it translate the object half of its width and heigh left and top*/
+}
+
+h1 {
+	margin: 0;
+}
