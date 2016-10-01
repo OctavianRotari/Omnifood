@@ -1,3 +1,9 @@
+/*-------------------------------------------------------------------------*/
+/*BASIC SETUP*/
+/*-------------------------------------------------------------------------*/
+
+/*orange color: #cf6d17*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -13,25 +19,16 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+/*-------------------------------------------------------------------------*/
+/*REUSABLE CONTENTS*/
+/*-------------------------------------------------------------------------*/
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
-header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-}
-
-.hero-text-box {
-	position: absolute; /*it doesnt depend on other factors*/
-	width: 1140px; /*same with as the whole image but absolutelly positioned*/
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%) /*it translate the object half of its width and heigh left and top*/
-}
+/*------Heading------*/
 
 h1 {
 	margin-top: 0;
@@ -43,6 +40,8 @@ h1 {
 	letter-spacing: 1px;
 	word-spacing: 4px;
 }
+
+/*------Buttons------*/
 
 .btn:link,
 .btn:visited {
@@ -84,4 +83,57 @@ h1 {
 .btn-ghost:active{
 	border: 1px solid #cf6d17;
 	color: #fff;
+}
+
+/*-------------------------------------------------------------------------*/
+/*HEADER*/
+/*-------------------------------------------------------------------------*/
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.hero-text-box {
+	position: absolute; /*it doesnt depend on other factors*/
+	width: 1140px; /*same with as the whole image but absolutelly positioned*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) /*it translate the object half of its width and heigh left and top*/
+}
+
+.logo {
+	margin-top: 20px;
+	height: 100px;
+	width: auto;
+	float: left;
+}
+
+.main-nav {
+	margin-top: 55px;
+	float: right;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 0px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #cf6d17;
 }
