@@ -8,7 +8,7 @@ web-design and as a final project in this course i had to create a website for
 superfulous client Omnifood.  The focus of this web-site was to attract users
 to subscribe to a monthly food delivery contract.
 
-##APPROACH
+##Aproach
 
 The course had fairly detailed instructions on the code behind the design.
 However instead of merely copying the instructions, I attempted to work out for
@@ -19,7 +19,7 @@ organized and clean, because as the project grows the possibility to have a
 mess in code is really high so the best way to avoid it is to keep it clean
 from the beginning.
 
-##CONCLUSIONS
+##Conclusions
 
 During this project I understood how JQuery plugins works and how to arrange
 CSS code and also how the box model in HTML works with all the properties.  I
@@ -28,4 +28,4 @@ images, arrangement of the content and also how to optimize the website before
 launching it online.
 
 ![ScreenShot](http://i.imgur.com/RFLKmCe.png)
-![ScreenShot](http://i.imgur.com/I3osPGU.png)
+![ScreenShot](http:/mgur.com/I3osPGU.png)
