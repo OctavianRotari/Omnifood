@@ -28,4 +28,4 @@ images, arrangement of the content and also how to optimize the website before
 launching it online.
 
 ![ScreenShot](http://i.imgur.com/RFLKmCe.png)
-![ScreenShot](http:/mgur.com/I3osPGU.png)
+![ScreenShot](http://i.imgur.com/I3osPGU.png)
